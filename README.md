@@ -5,7 +5,7 @@ A repo with infomation regarding CentOS and Automotive.
 This is temporary workaround until the packages get officially
 included.
 
-#### Host machine
+#### Information about the Host machine which will generate the CentOS Automotive image
 ```
 $ cat /etc/fedora-release
 Fedora release 38 (Thirty Eight)
