@@ -16,7 +16,7 @@ $ getenforce
 Enforcing
 ```
 
-#### Host Machine: Installing required packages and copying config files
+#### Host Machine: Installing required packages and copying config files for the build
 ```
 sudo dnf install -y osbuild osbuild-tools osbuild-ostree 
 git clone https://gitlab.com/CentOS/automotive/sample-images
