@@ -56,7 +56,8 @@ $ ls *.qcow2
 cs9-qemu-hirte-regular.x86_64.qcow2
 ```
 
-Afer the vm is generated, use the following command to run in the console. Please note, the default user and password is: 'root` and `password`:
+Afer the vm is generated, use the following command to run in the console.  
+Please note, the default user and password is: 'root` and `password`:
 ```
 ./runvm --nographics cs9-qemu-hirte-regular.x86_64.qcow2
 ```
