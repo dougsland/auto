@@ -27,7 +27,8 @@ cp hirte.mpp.yml ../sample-images/osbuild-manifests/images/
 popd
 ```
 
-Please note, the trick in the yml file is below. In this example, we are adding repos from copr (`mperina/hirte` and `podman-next`).
+Please note, the trick in the yml file is below.  
+In this example, we are adding repos from copr (`mperina/hirte` and `podman-next`).
 ```
   <snip>
   - - id: copr-hirte-snapshot
