@@ -16,7 +16,7 @@ $ getenforce
 Enforcing
 ```
 
-#### Host Machine: Installing required packages and copying config files for the build
+#### 1. Host Machine: Installing required packages and copying config files for the build
 ```
 sudo dnf install -y osbuild osbuild-tools osbuild-ostree 
 git clone https://gitlab.com/CentOS/automotive/sample-images
@@ -45,7 +45,7 @@ popd
       - qm
   <snip>
 ```
-#### Generating the AutoOS VM image
+#### 2. Generating the AutoOS VM image
 **NOTE**: During the build process, the password for the root user will be requested.
 ```
 cd sample-images/osbuild-manifests/
