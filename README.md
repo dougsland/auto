@@ -1,9 +1,8 @@
-- [auto](#auto)
-  * [Generating CentOS Automotive image with hirte and qm packages](#generating-centos-automotive-image-with-hirte-and-qm-packages)
-      - [1. Information about the Host machine which will generate the CentOS Automotive image](#1-information-about-the-host-machine-which-will-generate-the-centos-automotive-image)
-      - [2. Host Machine: Installing required packages and copying config files for the build](#2-host-machine--installing-required-packages-and-copying-config-files-for-the-build)
-      - [3. Generating the AutoOS VM image](#3-generating-the-autoos-vm-image)
-    + [References](#references)
+* [Generating CentOS Automotive image with hirte and qm packages](#generating-centos-automotive-image-with-hirte-and-qm-packages)
+    - [1. Information about the Host machine which will generate the CentOS Automotive image](#1-information-about-the-host-machine-which-will-generate-the-centos-automotive-image)
+    - [2. Host Machine: Installing required packages and copying config files for the build](#2-host-machine--installing-required-packages-and-copying-config-files-for-the-build)
+    - [3. Generating the AutoOS VM image](#3-generating-the-autoos-vm-image)
+  + [References](#references)
 
 
 # auto
