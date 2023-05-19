@@ -45,6 +45,9 @@ pipelines:
               - containernetworking-plugins
               - curl
               - hirte
+              - hirte-ctl
+              - hirte-agent
+              - hirte-selinux
               - qm
           excludes:
           - dracut-config-rescue
