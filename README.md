@@ -63,6 +63,6 @@ Please note, the default user and password is: `root` and `password`:
 **To exit from qemu**: `CTRL-a c` and then `quit` into the qemu terminal
 
 ### References
-https://sigs.centos.org/automotive/building/#installing-osbuild-on-centos-stream-8
-https://gist.github.com/michael131468/ba35263a14143547d26f6f7d691a6a30
+https://sigs.centos.org/automotive/building/#installing-osbuild-on-centos-stream-8  
+https://gist.github.com/michael131468/ba35263a14143547d26f6f7d691a6a30  
 https://gitlab.com/lrossett/sample-images/-/commits/hirte-snapshot
