@@ -46,7 +46,7 @@ In this example, we are adding repos from copr (`mperina/hirte` and `podman-next
       - qm
   <snip>
 ```
-#### Building AutoOS
+#### Generating the AutoOS VM image
 During the build process, the password for the root user will be requested.
 ```
 cd sample-images/osbuild-manifests/
