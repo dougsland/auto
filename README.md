@@ -46,7 +46,7 @@ popd
   <snip>
 ```
 #### Generating the AutoOS VM image
-During the build process, the password for the root user will be requested.
+**NOTE**: During the build process, the password for the root user will be requested.
 ```
 cd sample-images/osbuild-manifests/
 make cs9-qemu-hirte-regular.x86_64.qcow2
