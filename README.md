@@ -1,3 +1,11 @@
+- [auto](#auto)
+  * [Generating CentOS Automotive image with hirte and qm packages](#generating-centos-automotive-image-with-hirte-and-qm-packages)
+      - [1. Information about the Host machine which will generate the CentOS Automotive image](#1-information-about-the-host-machine-which-will-generate-the-centos-automotive-image)
+      - [2. Host Machine: Installing required packages and copying config files for the build](#2-host-machine--installing-required-packages-and-copying-config-files-for-the-build)
+      - [3. Generating the AutoOS VM image](#3-generating-the-autoos-vm-image)
+    + [References](#references)
+
+
 # auto
 A repo with infomation regarding CentOS and Automotive.
 
@@ -5,7 +13,7 @@ A repo with infomation regarding CentOS and Automotive.
 This is temporary workaround until the packages get officially
 included.
 
-#### Information about the Host machine which will generate the CentOS Automotive image
+#### 1. Information about the Host machine which will generate the CentOS Automotive image
 ```
 $ cat /etc/fedora-release
 Fedora release 38 (Thirty Eight)
@@ -16,7 +24,7 @@ $ getenforce
 Enforcing
 ```
 
-#### 1. Host Machine: Installing required packages and copying config files for the build
+#### 2. Host Machine: Installing required packages and copying config files for the build
 ```
 sudo dnf install -y osbuild osbuild-tools osbuild-ostree 
 git clone https://gitlab.com/CentOS/automotive/sample-images
@@ -45,7 +53,7 @@ popd
       - qm
   <snip>
 ```
-#### 2. Generating the AutoOS VM image
+#### 3. Generating the AutoOS VM image
 **NOTE**: During the build process, the password for the root user will be requested.
 ```
 cd sample-images/osbuild-manifests/
