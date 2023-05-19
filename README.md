@@ -1,7 +1,7 @@
 # auto
 A repo with infomation regarding CentOS and Automotive.
 
-## Generating CentOS Automotive image with hirte and qm
+## Generating CentOS Automotive image with hirte and qm packages
 This is temporary workaround until the packages get officially
 included.
 
