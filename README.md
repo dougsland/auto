@@ -27,7 +27,7 @@ cp hirte.mpp.yml ../sample-images/osbuild-manifests/images/
 popd
 ```
 
-**As reference only (no real step)**, the repos added into the `hirte.mpp.yml` are `podman-next` and `mperina/hirte`.
+**As reference only (no real step)**, the repos added into the hirte.mpp.yml are `podman-next` and `mperina/hirte`.
 ```
   <snip>
   - - id: copr-hirte-snapshot
